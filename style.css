@@ -1,0 +1,583 @@
+﻿/*start main*/
+body {
+    height: 2000px;
+}
+.contener{
+    width:900px;
+    margin:auto;
+
+}
+/*end main*/
+
+/*start header*/
+.header .slider {
+    background: url(as.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 270px;
+    text-align:center;
+    color:#300c05;
+    padding-top:300px;
+
+}
+.header .slider .intro h1
+    {
+        margin-top:0 ;
+        border-top: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        width:90%;
+        text-align:center;
+        font-size:55px;
+        text-transform:uppercase;
+        padding-left:20px;
+}
+.header .slider .intro button
+{
+  color:#300c05;
+    background:none;
+    font-size:xx-large;
+    border:3px solid #ffffff;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left:15px;
+        padding-left:15px;
+        cursor:pointer;
+}
+.header .navbar
+{
+    background-color :#252f31;
+    color:#ffffff;
+    overflow:hidden;
+            text-transform:uppercase;
+            font-weight:bold;
+
+
+}
+#d
+{
+     color:#4a5456;
+    background-color:#4a5456;
+  
+}
+#b
+{
+      color:#ffffff;
+    background-color:#4a5456;
+}
+#c
+{
+       margin-right:10px;
+         color:#4a5456;
+    background-color:#4a5456;
+}
+
+.header .navbar h2
+{
+    float:left;
+        text-transform:uppercase;
+}
+
+#a
+{ 
+    color:#2be47f
+}
+
+.header .navbar ul 
+{
+list-style:none;
+padding-left:10px;
+overflow:hidden;
+float:right;
+}
+
+.header .navbar ul li
+{
+    float:left;
+    padding:10px;
+
+}
+.header .navbar ul li a
+{
+    text-decoration:none;
+}
+.header .navbar ul li a:link
+{
+    color:#ffffff;
+}
+.header .navbar ul li a:hover
+{
+    color:#2dcc70;
+}
+
+/*end header*/
+
+/*momiez*/
+.momiez{
+    overflow:hidden;
+        padding-top:30px;
+    padding-bottom:30px;
+
+}
+.momiez .klam
+ {
+    float:left;
+    width:33.333%;
+    height:150px;
+    text-transform:uppercase;
+    height:80%;
+    margin-top:40px;
+}
+.momiez .klam h1
+{
+color:#555a5d;
+}
+.momiez .klam p
+{
+    font-weight:500;
+    line-height: 30px;
+    margin-right:10px;
+    padding-right:10px;
+    color:#b3b3b3;
+}
+/*momiez*/
+/*about me*/
+.aboutme
+{
+    overflow:hidden;
+    background-color:#f2f2f2;
+
+
+}
+.aboutme .image 
+{
+    float:left;
+    width:40%;
+
+   
+}
+.aboutme .image img
+{
+    width:380px;
+    height:650px;
+}
+
+.aboutme .info
+{
+    float:left;
+    width:60%;
+}
+.aboutme .info h1
+{
+ text-transform:uppercase;
+ margin-left:70px;
+ margin-top:50px;
+ color:#555a5d;
+}
+.aboutme .info > p
+{
+     margin-left:70px;
+     color:#b3b3b3;
+     line-height:30px;
+}
+.aboutme .hob
+{
+     overflow:hidden;
+     margin-left:70px;
+}
+.aboutme .hob  p
+{
+         color:#b3b3b3;
+         line-height:30px;
+         margin-right:20px;
+        
+}
+.aboutme .hob  h3
+{
+    text-transform:uppercase;
+    margin-right:20px;
+    color:#555a5d;
+}
+.aboutme .hob  img
+{
+    width:30px;
+    height:30px;
+}
+
+.aboutme .hob > div
+{
+    float:left;
+    width:50%;
+    min-height:100px;
+}
+
+/*about me*/
+/*skills*/
+.skills
+{
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+.skills .myskill ,
+.skills .bramj
+{
+    float:left;
+    width:50%;
+    
+}
+
+.skills .myskill h1
+{
+    text-transform:uppercase;
+    color:#555a5d;
+}
+.skills .myskill p
+{
+    color:#b3b3b3;
+    padding-bottom:20px;
+       padding-right:40px;
+}
+.skills .myskill button
+{
+     color:#2dcc70;
+    background:none;
+    font-size:xx-large;
+    border:3px solid #2dcc70;
+    text-transform:uppercase;
+    font-weight:bold;
+        cursor:pointer;
+        padding: 10px 10px 10px 10px;
+}
+.skills .bramj .tec h1
+{
+    text-transform:uppercase;
+    color:#555a5d;
+}
+.skills .bramj .tec div
+{
+    background-color:#f3f3f3;
+    height:25px;
+}
+.skills .bramj .tec div span
+{
+    background-color:#2dcc70;
+    color:white;
+    display:block;
+    height:25px;
+    text-align:right;
+    line-height:25px;
+    font-weight:bold;
+}
+.skills .bramj .tec2 div
+ {
+        background-color: #f3f3f3;
+        height: 25px;
+}
+.skills .bramj .tec2 div span
+{
+    background-color:#2dcc70;
+    color:white;
+    display:block;
+    height:25px;
+    text-align:right;
+    line-height:25px;
+    font-weight:bold;
+}
+.skills .bramj .tec3 div
+{
+        background-color: #f3f3f3;
+        height: 25px;
+}
+.skills .bramj .tec3 div span
+{
+    background-color:#2dcc70;
+    color:white;
+    display:block;
+    height:25px;
+    text-align:right;
+    line-height:25px;
+    font-weight:bold;
+}
+.skills .bramj .tec4 div
+{
+        background-color: #f3f3f3;
+        height: 25px;
+}
+.skills .bramj .tec4 div span
+{
+    background-color:#2dcc70;
+    color:white;
+    display:block;
+    height:25px;
+    text-align:right;
+    line-height:25px;
+    font-weight:bold;
+}
+/*skills*/
+/*resume*/
+.resume 
+{
+       text-align:center;
+           background-color:#f2f2f2;
+}
+.resume h2 
+{
+    text-transform:uppercase;
+    padding-top:50px;
+    color:#555a5d;
+}
+.resume p
+{
+    color:#b3b3b3;
+}
+.resume .btn
+{
+    padding: 50px 0 50px 0;
+}
+.resume button
+{
+    color:#2dcc70;
+    background:none;
+    font-size:xx-large;
+    border:3px solid #2dcc70;
+    text-transform:uppercase;
+    font-weight:bold;
+    cursor:pointer;
+    padding: 10px 10px 10px 10px;
+
+}
+/*resume*/
+/*edu*/
+.edu
+{
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+.edu .kalam ,
+.edu .shhada
+{
+    float:left;
+    width:50%;
+}
+.edu .kalam h2
+{
+    text-transform:uppercase;
+    padding-top:20px;
+    color:#555a5d;
+}
+.edu .kalam p
+{
+     color:#b3b3b3;
+}
+.edu .shhada  h3
+{
+   text-transform:uppercase;
+    padding-top:70px;
+    color:#555a5d;
+}
+.edu .shhada p
+{
+    color:#b3b3b3;
+}
+.edu .shhada span
+{
+    background-color:#2dcc70;
+    color:white;
+    display:block;
+    height:25px;
+    text-align:center;
+    line-height:25px;
+    font-weight:bold;
+}
+.edu .shhada hr
+{
+    color:#b3b3b3;
+}
+/*edu*/
+/*work*/
+.work
+{
+    overflow:hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+.work .kalam ,
+.work .shhada
+{
+    float:left;
+    width:50%;
+}
+.work .kalam  h3
+{
+   text-transform:uppercase;
+    padding-top:20px;
+    color:#555a5d;
+}
+.work .kalam  p
+{
+    color:#b3b3b3;
+}
+.work .shhada h3
+{
+       text-transform:uppercase;
+    padding-top:70px;
+    color:#555a5d;
+}
+.work .shhada p
+{
+    color:#b3b3b3;
+}
+.work .shhada span
+{
+    background-color:#2dcc70;
+    color:white;
+    display:block;
+    height:25px;
+    text-align:center;
+    line-height:25px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+/*work*/
+/*fady*/
+.fady 
+{
+       text-align:center;
+           background-color:#f2f2f2;
+}
+.fady .klam p
+{
+    color:#b3b3b3;
+    padding-top:50px;
+    font-weight:bold;
+    font-style:italic;
+}
+.fady .klam h3
+{
+    text-transform:uppercase;
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:#555a5d;
+}
+/*fady*/
+/*portfole*/
+.portfole
+{
+        padding-top:30px;
+    padding-bottom:30px;
+}
+.portfole h2
+{
+    text-transform:uppercase;
+    padding-top:50px;
+    padding-bottom: 20px;
+    color:#555a5d;
+        text-align:center;
+
+}
+.portfole p
+{
+    color:#b3b3b3;
+    text-align:center;
+    padding-bottom:50px;
+}
+.portfole .pic
+{
+    overflow:hidden;
+}
+.portfole .pic > div
+{
+    float:left;
+    width:33.333333%;
+  margin-bottom:20px;
+
+}
+.portfole .pic > div img
+{
+    width:80%;
+    margin:10px;
+}
+
+/*portfole*/
+/*contact*/
+.con
+{
+    background-color:#252f31;
+    text-align:left;
+    overflow:hidden;
+}
+.con .shmal ,
+.con .yamen
+{
+    width:50%;
+    float:left;
+     background-color:#252f31;
+}
+.con .shmal h2
+{
+    text-transform:uppercase;
+    padding-top:50px;
+    color:#fff;
+}
+.con .shmal p
+{
+    color:#b3b3b3;
+    margin-right:25px;
+}
+.con .shmal h4
+{
+    color:#fff;
+}
+.con .shmal  span
+{
+   color:#b3b3b3;
+}
+.con .yamen
+{
+    padding-top:90px;
+    padding-bottom:50px;
+}
+.con .yamen h4
+{
+    color:white;
+    
+}
+.con .yamen button
+{
+    color:#fff;
+    background-color:#191e22;
+    font-size:large;
+    border:3px solid #191e22;
+    text-transform:uppercase;
+    cursor:pointer;
+    padding: 10px 10px 10px 10px;
+}
+/*contact*/
+/*aghr*/
+.aghr
+{
+    background-color:#191e22;
+    overflow:hidden;
+    text-align:center;
+}
+.aghr .klam p
+{
+    color:#fff;
+    font-weight:bold;
+}
+.aghr .icon
+{
+    padding-bottom:20px;
+}
+.aghr .icon img
+{
+    width:30px;
+    height:30px;
+
+}
+/*aghr*/
+
